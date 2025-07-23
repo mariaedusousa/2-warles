@@ -41,12 +41,17 @@ int main() {
 
 C-
 #include <stdio.h>
- #include <stdlib.h>           
+int num1,num2;
 int main() {
       printf("escreva o primeiro numero: ");
       scantf("%d" &num1);
       printf("escreva o segundo numero: ");
       scantf("%d" &num2);
+soma=num1+num2;
+sub=num1-num2;
+div=num1/num2;
+res=num1%num2;
+mult=num1*num2;
 }
 D-
 #include <stdio.h>
