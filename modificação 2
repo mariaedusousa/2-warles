@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+int main(){
+
+int a;
+int b;
+
+printf("informe o primeiro número: ",a);
+scanf("%d", &a);
+printf("informe o segundo número: ",b);
+scanf("%d", &b);
+
+int soma = a + b;
+int subtracao = a - b;
+int multiplicacao = a * b;
+int divisao = a / b;
+int resto = a % b;
+
+printf("o valor da soma de a = %d e b = %d é: %d\n",a,b,soma);
+printf("o valor da subtração de a = %d e b = %d é: %d\n",a,b,subtracao);
+printf("o valor da multiplicação de a = %d e b = %d é: %d\n",a,b,multiplicacao);
+printf("o valor da divisão de a = %d e b= %d é: %d\n",a,b,divisao);
+printf("o valor da resto de a = %d e b = %d é: %d\n",a,b,resto);
+
+}
