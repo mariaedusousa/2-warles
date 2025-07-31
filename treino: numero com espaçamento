@@ -1,0 +1,20 @@
+#include<stdio.h>
+int um, dois,trees,cuato;
+int jujuba,froo,lermon,amora,preda;
+int num;
+int main(){
+  printf("informe o numero: ");
+scanf("%d",&num);  
+if(num>=10000&&num<=99999){
+jujuba=num/10000;
+froo=(num/1000)%10;
+lermon=(num/100)%10;
+amora=(num/10)%10;
+preda=num%10;
+    
+    printf("%d %d %d %d %d\n",jujuba,froo,lermon,amora,preda);
+}else{
+    printf("digite outro numero\n");
+}
+    return 0;
+}
